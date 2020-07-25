@@ -1,0 +1,26 @@
+.fireman {
+    display: flex;
+    justify-content: space-between;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.bg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.fish
+{
+    position:absolute;
+    top: 15%;
+    left: 25px;
+    z-index: 2;
+}
+
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}

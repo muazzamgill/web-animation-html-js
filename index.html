@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation web apllication</title>
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body onload="startGame()">
+
+<!--    <div id="main-div" class="bg">
+        <img src="bg1.bmp" alt="Nature" class="responsive" width="800" height="600">
+    </div>-->
+        <div id="fireman-div" class="fireman">
+
+            <img src="img1.gif" class="fish">
+             </div>
+
+
+<div style="text-align:center;width:480px;">
+    <button onmousedown="move('up')" onmouseup="clearmove()" ontouchstart="move('up')">UP</button><br><br>
+    <button onmousedown="move('left')" onmouseup="clearmove()" ontouchstart="move('left')">LEFT</button>
+    <button onmousedown="move('right')" onmouseup="clearmove()" ontouchstart="move('right')">RIGHT</button><br><br>
+    <button onmousedown="move('down')" onmouseup="clearmove()" ontouchstart="move('down')">DOWN</button>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
